@@ -1,0 +1,55 @@
+body {
+  font-family: Georgia;
+  background-color: #F9FF9E;
+}
+
+p{
+  margin: center;
+}
+
+#page-wrap {
+  width: 700px;
+  background-color: white;
+  margin: 40px auto 0 auto;
+  padding: 20px;
+
+}
+
+#sidebar {
+  width: 150px;
+  float: left;
+  margin: 10px;
+}
+
+#content {
+  width: 480px;
+  float: right;
+  padding-left: 20px;
+  border-left: 1px solid #333;
+  min-height: 300px;
+}
+
+#kotak {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 10px;
+}
+
+#kotak img {
+  width: 70px;
+  height: auto;
+}
+
+#footer {
+  text-align: center;
+  background-color: #333;
+  font-family: Verdana;
+  color: white;
+  width: 740px;
+  height: auto;
+  margin: 0 auto 1px auto;
+  padding: 15px 0;
+  font-size: 12px;
+}

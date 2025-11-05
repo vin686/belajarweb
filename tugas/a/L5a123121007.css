@@ -1,0 +1,41 @@
+body {
+  font-family: Georgia;
+  background-color: #F9FF9E;
+}
+
+p{
+    margin: center;
+}
+
+#page-wrap {
+  width: 600px;
+  background-color: white;
+  margin: 40px auto 0 auto; /* jarak atas 40px, bawah 0px */
+  padding: 20px;
+}
+
+
+#content {
+  width: 400px;
+  padding-right: 20px;
+  border-right: 1px solid #333;
+  min-height: 300px;
+}
+
+
+#sidebar {
+  width: 150px;
+
+}
+
+#footer {
+  text-align: center;
+  background-color: #333;
+  font-family: Verdana;
+  color: white;
+  width: 740px;
+  height: auto;
+  margin: 0 auto 1px auto;
+  padding: 15px 0;
+  font-size: 12px;
+}
